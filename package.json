@@ -1,0 +1,36 @@
+{
+  "name": "event-center",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "vite",
+    "build:prod": "vite build",
+    "build:test": "vite build --mode test",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@element-plus/icons-vue": "^1.1.4",
+    "axios": "^0.26.1",
+    "echarts": "^5.2.1",
+    "echarts-gl": "^2.0.9",
+    "echarts-liquidfill": "^3.1.0",
+    "element-plus": "^2.1.4",
+    "gcoord": "^0.3.2",
+    "highcharts": "^10.3.2",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14",
+    "vue3-seamless-scroll": "^2.0.1",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "js-cookie": "^3.0.5",
+    "unplugin-auto-import": "^0.9.2",
+    "vite": "^2.9.15",
+    "vite-plugin-externals": "^0.4.0"
+  }
+}
